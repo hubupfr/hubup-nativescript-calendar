@@ -1,5 +1,5 @@
-import {View} from "ui/core/view";
+import {StackLayout} from "ui/layouts/stack-layout";
 
-export class HubupCalendar extends View {
+export class HubupCalendar extends StackLayout {
 
 }

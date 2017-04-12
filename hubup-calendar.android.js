@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var view_1 = require("ui/core/view");
+var stack_layout_1 = require("ui/layouts/stack-layout");
 var HubupCalendar = (function (_super) {
     __extends(HubupCalendar, _super);
     function HubupCalendar() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     return HubupCalendar;
-}(view_1.View));
+}(stack_layout_1.StackLayout));
 exports.HubupCalendar = HubupCalendar;
 //# sourceMappingURL=hubup-calendar.android.js.map
