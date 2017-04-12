@@ -1,7 +1,9 @@
 declare module "hubup-nativescript-calendar" {
-    import {StackLayout} from "ui/layouts/stack-layout";
-
-    export class HubupCalendar extends StackLayout {
+    import { ContentView } from 'ui/content-view';
+    
+    export class HubupCalendar extends ContentView {
+        android: any; /* android.widget.CalendarView   */
+        ios:any;
 
     }
 
