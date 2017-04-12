@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Nativescript plugin for simple native calendars. https://github.com/hubupfr/hubup-nativescript-calendar",
   "main": "hubup-calendar",
-  "typings": "index.d.ts",
+  "typings": "hubup-calendar.d.ts",
   "nativescript": {
     "platforms": {
       "android": "2.5.0"
